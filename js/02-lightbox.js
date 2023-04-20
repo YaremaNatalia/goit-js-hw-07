@@ -23,6 +23,11 @@ function createPhotosMarkup(images) {
 }
 
 let lightbox = new SimpleLightbox(".gallery__link", {
-  captionsData: "alt",
+  captionsData: "alt", // звернення до опцій бібліотеки (додавання тексту і часу появи)
   captionDelay: 250,
 });
+
+// let lightbox = new SimpleLightbox(".gallery a", {  // посилання на клас галереї і тег <а>
+//   captionsData: "alt",
+//   captionDelay: 250,
+// });
